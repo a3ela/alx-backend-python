@@ -1,8 +1,10 @@
-#!/usr/bin/env pyton3
-'''module for make_multiplier'''
+#!/usr/bin/env python3
+'''Task 8's module.
+'''
 from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    '''returns a function that multiplies a float by multiplier'''
+    '''Creates a multiplier function.
+    '''
     return lambda x: x * multiplier
