@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 '''module documentation'''
-from typing import Tuple, List
+from typing import List
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
-    zoomed_in: Tuple = [
+def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
+    '''function documentation'''
+    zoomed_in: List[int] = [
         item for item in lst
         for i in range(factor)
     ]
@@ -15,4 +16,4 @@ array = [12, 72, 91]
 
 zoom_2x = zoom_array(array)
 
-zoom_3x = zoom_array(array, 3.0)
+zoom_3x = zoom_array(array, 3)
