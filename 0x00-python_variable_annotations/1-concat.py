@@ -3,7 +3,7 @@
 '''
 
 
-def concat(str1: str, str2:str) -> str:
-    '''return two concatinated strings
+def concat(str1: str, str2: str) -> str:
+    '''return two concatenated strings
     '''
     return f'{str1}{str2}'
